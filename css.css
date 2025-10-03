@@ -19,8 +19,12 @@ p {
 }
 
 img {
-    max-width: 80%;
-    height: auto;
+  
+    width: 300px;   /* ancho fijo */
+    height: 200px;  /* alto fijo */
+    object-fit: cover; /* recorta la imagen si no tiene la misma proporción */
     border-radius: 10px;
     margin-top: 20px;
+
+
 }
